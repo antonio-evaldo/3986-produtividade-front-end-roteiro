@@ -13,15 +13,15 @@ botaoExpandirCanais.addEventListener("click", () => {
     canaisEstaoExpandidos = true;
 
     botaoExpandirCanais.innerHTML = `
-      <i class="menu-lateral__icone-mostrar menu-lateral__icone-mostrar--rotacionado"></i>
-      <span class="texto-colapsar-canais">Mostrar menos</span>
+      <i class="menu-lateral__icone-toggle menu-lateral__icone-toggle--rotacionado"></i>
+      <span class="menu-lateral__texto-toggle">Mostrar menos</span>
     `;
   } else {
     canaisEstaoExpandidos = false;
 
     botaoExpandirCanais.innerHTML = `
-      <i class="menu-lateral__icone-mostrar"></i>
-      <span class="texto-colapsar-canais">Mostrar mais 2</span>
+      <i class="menu-lateral__icone-toggle"></i>
+      <span class="menu-lateral__texto-toggle">Mostrar mais 2</span>
     `;
   }
 });
