@@ -18,7 +18,7 @@ function filtrarPorCategoria(filtro) {
 
     const mostrarVideo = valorFiltro === 'Tudo' || categoria.includes(valorFiltro);
 
-    video.classList.toggle("escondido", !mostrarVideo);
+    video.classList.toggle("video-principal--escondido", !mostrarVideo);
   }
 }
 
