@@ -16,11 +16,11 @@ function filtrarPesquisa() {
       let titulo = video.querySelector(".video-principal__titulo-video").textContent.toLowerCase();
       let valorFiltro = barraDePesquisa.value.toLowerCase();
 
-      video.classList.toggle("escondido", !titulo.includes(valorFiltro));
+      video.classList.toggle("video-principal--escondido", !titulo.includes(valorFiltro));
     }
   } else {
     for (const video of videos) {
-      video.classList.remove("escondido");
+      video.classList.remove("video-principal--escondido");
     }
   }
 }
