@@ -110,11 +110,11 @@
   content: url("../img/modo_claro/menu_lateral/Avatar_Deschamps.png");
 }
 
-.menu-lateral__icone-mostrar::before {
+.menu-lateral__icone-toggle::before {
   content: url("../img/modo_claro/menu_lateral/keyboard_arrow_down.svg");
 }
 
-.menu-lateral__icone-mostrar--rotacionado {
+.menu-lateral__icone-toggle--rotacionado {
   transform: rotateX(0.5turn)
 }
 
