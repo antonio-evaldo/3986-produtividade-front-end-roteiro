@@ -1,6 +1,13 @@
 const switchInput = document.querySelector('.cabecalho__switch-input');
 const body = document.body;
+const logo = document.getElementById('log-vidflow');
 
 switchInput.addEventListener('change', () => {
-  body.classList.toggle('modo-escuro', switchInput.checked);
+  const isDarkMode = switchInput.checked;
+
+  body.classList.toggle('modo-escuro', isDarkMode);
+
+  logo.src = isDarkMode
+    ? './img/modo_escuro/vidflow-logo-dark-mode.png'
+    : './img/modo_claro/vidflow-logo-light-mode.png';
 });
