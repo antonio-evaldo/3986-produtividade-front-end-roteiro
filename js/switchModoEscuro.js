@@ -1,6 +1,6 @@
 const switchInput = document.querySelector('.cabecalho__switch-input');
 const body = document.body;
-const logo = document.getElementById('log-vidflow');
+const logo = document.getElementById('logo-vidflow');
 
 switchInput.addEventListener('change', () => {
   const isDarkMode = switchInput.checked;
