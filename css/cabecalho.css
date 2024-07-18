@@ -34,7 +34,7 @@
 .cabecalho__input-pesquisa {
   position: relative;
   padding: 14px 12px;
-  background-color: var(--branco);
+  background-color: transparent;
   border: 2px solid var(--cinza-claro);
   border-radius: 32px 0px 0px 32px;
   font-size: 16px;
