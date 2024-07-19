@@ -50,6 +50,17 @@
   cursor: pointer;
 }
 
+.modal-inscricao {
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+}
+
+.modal-inscricao::backdrop {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
 .modo-escuro .newsletter {
   background-color: var(--azul-primario);
 }
