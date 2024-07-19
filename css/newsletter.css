@@ -54,11 +54,15 @@
   border: none;
   border-radius: 5px;
   box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
-  padding: 20px;
+  padding: 0; /* Remover padding para a borda do modal */
 }
 
 .modal-inscricao::backdrop {
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal-inscricao__conteudo {
+  padding: 20px; /* Adicionar padding para o conteúdo do modal */
 }
 
 .modo-escuro .newsletter {
